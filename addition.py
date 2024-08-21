@@ -1,5 +1,8 @@
-x = "hello"
+# app.py
+# This is a test commit
+def add(a, b):
+    return a + b
 
-#if condition returns True, then nothing happens:
-assert x == "hello"
-
+def test_add():
+    assert add(1, 2) == 3
+    assert add(1, -1) == 0
