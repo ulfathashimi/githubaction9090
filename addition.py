@@ -1,6 +1,8 @@
-# app.py
-# This is a test commit
-a=10
+x = "hello"
 
-assert a==10
+#if condition returns True, then nothing happens:
+assert x == "hello"
+
+#if condition returns False, AssertionError is raised:
+assert x == "goodbye"
 
